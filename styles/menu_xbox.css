@@ -1,0 +1,56 @@
+ul,body,header,nav{
+	font-family: Arial;
+	padding: 0;
+	margin: 0;
+}
+header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #008403;
+	height:40px;
+}
+.nav_menu img{
+	height: 35px;
+}
+.nav_menu{
+	height: 100%;
+}
+/*A todos*/
+.nav_menu ul{
+	height: 100%;
+	list-style: none;
+	padding: 0;
+}
+.nav_menu li{
+	float: left;
+	height: 100%;
+	display: table;
+}
+.nav_menu input{
+	transition: all 0.4s;
+	height: 80%;
+	font-size: 1.4em;
+	padding-left: .6em;
+	border-radius: 5px;
+	width: 15em;
+}
+.nav_menu input:focus{
+	width: 25em;
+}
+.nav_menu a{
+	color: #fff;
+	padding: 0 1.5em;
+	text-decoration: none;
+	transition: .3s;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.nav_menu form{
+	display: table-cell;
+	vertical-align: middle;
+}
+.nav_menu a:hover{
+	background: rgba(0,100,0,.5);
+}
